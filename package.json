@@ -1,0 +1,14 @@
+{
+    "name": "kormsen-workspaces",
+    "private": true,
+    "version": "0.0.1",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "build": "yarn workspace example build"
+    },
+    "workspaces": [
+      "gatsby-theme-kormsen",
+      "kormsen-site-starter"
+    ]
+}

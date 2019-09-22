@@ -1,0 +1,27 @@
+import { SEO, Colors, Typography, Flex, Box } from "gatsby-theme-kormsen"
+
+
+<SEO title="Kormsen Design System" />
+
+# Kormsen Design System
+
+
+<Typography />
+<Colors />
+
+
+
+## Button Internal
+
+Simple series of buttons for navigation, uses Gatsby `<Link>` element internally and an `<a>` for external. Uses [variants](https://theme-ui.com/guides/variants) from theme-ui to control appearance and styles.
+
+```
+import { Button } from "gatsby-theme-kormsen"
+<Button to="/page-2" variant="primary">I'm a button</Button>
+```
+
+<p><ButtonInternal to="/page-2" text="Primary" variant="primary" /></p>
+
+<p><ButtonInternal to="/page-2" text="Secondary" variant="secondary" /></p>
+
+<p><ButtonInternal to="/page-2" text="Large" variant="large" /></p>

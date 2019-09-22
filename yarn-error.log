@@ -1,0 +1,39 @@
+Arguments: 
+  /Users/kiastorm/.nvm/versions/node/v10.15.3/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/kiastorm/.nvm/versions/node/v10.15.3/bin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Users/kiastorm/.nvm/versions/node/v10.15.3/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/kiastorm/Library/Caches/Yarn/v4/npm-regenerate-unicode-properties-8.1.0-ef51e0f0ea4ad424b77bf7cb41f3e015c70a3f0e/node_modules/regenerate-unicode-properties/Script/Anatolian_Hieroglyphs.js' -> '/Users/kiastorm/Documents/Dev/Kormsen/kormsen-workspaces/node_modules/regenerate-unicode-properties/Script/Anatolian_Hieroglyphs.js'
+
+npm manifest: 
+  {
+      "name": "kormsen-workspaces",
+      "private": true,
+      "version": "0.0.1",
+      "main": "index.js",
+      "license": "MIT",
+      "scripts": {
+        "build": "yarn workspace example build"
+      },
+      "workspaces": [
+        "gatsby-theme-kormsen",
+        "kormsen-site-starter"
+      ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

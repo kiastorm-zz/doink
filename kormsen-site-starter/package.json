@@ -1,0 +1,43 @@
+{
+  "name": "kormsen-site-starter",
+  "description": "Gatsby Starter: A basic implementation of Gatsby-Theme-Kormsen",
+  "version": "0.0.1",
+  "author": "Kia Storm <kia@kormsen.com>",
+  "dependencies": {
+    "@styled-system/css": "^5.0.23",
+    "gatsby": "^2.15.14",
+    "gatsby-plugin-typography": "^2.3.7",
+    "gltf-webpack-loader": "^1.0.6",
+    "mdx-deck": "^3.0.11",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-p5": "^1.0.6",
+    "react-p5-wrapper": "^2.0.0",
+    "react-spring": "^8.0.27",
+    "react-three-fiber": "^2.4.3",
+    "react-typography": "^0.16.19",
+    "rebass": "^4.0.5",
+    "rune.js": "^1.1.7",
+    "three": "^0.108.0",
+    "three-fbx-loader": "^1.0.3",
+    "typography": "^0.16.19"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-starter",
+    "gatsby-plugin"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  }
+}
